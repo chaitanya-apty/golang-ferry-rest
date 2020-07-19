@@ -13,7 +13,7 @@ CRUD Server which illustrates the usage of Ferry-Go Framewok
 4) Use Sample.SQL file inside Root directory to setup database
 5) API tool ex: Postman
 
-## Acknowledgments
+## Acknowledgements
 
 * Cheers to [Sai Umesh](https://github.com/saiumesh535) - Author of Ferry Framework
 
@@ -22,7 +22,7 @@ CRUD Server which illustrates the usage of Ferry-Go Framewok
 Following are the instructions to setup the server
 
 ```
-Development Enviroment
+Development Environment
 ```
  - Pull Source Code
  - From Root Directory > go run main.go (runs @ 3001)
