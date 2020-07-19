@@ -1,3 +1,4 @@
+-- Downloaded dummy data from googlr
 DROP TABLE IF EXISTS employee;
 
 CREATE TABLE employee (
