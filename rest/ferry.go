@@ -33,6 +33,6 @@ func (fh *FerryAPI) InitialiseRouters() {
 
 //StartServer - BootPoint
 func (fh *FerryAPI) StartServer() {
-	log.Fatal(fh.API.Listen(":3001")) // For Development GIN Default Port
 	defer fh.DB.Close()               // Safe Exit
+	log.Fatal(fh.API.Listen(":3001")) // For Development GIN Default Port
 }

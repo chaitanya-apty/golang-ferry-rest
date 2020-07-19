@@ -5,12 +5,7 @@ import (
 	"log"
 
 	"github.com/jmoiron/sqlx"
-	_ "github.com/lib/pq"
-)
-
-var (
-	pgConn *sqlx.DB
-	err    error
+	_ "github.com/lib/pq" //postgres-driver
 )
 
 //InitializeDatabase - Inilialize Postgres
